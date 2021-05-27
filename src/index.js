@@ -5,9 +5,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const DATA = [
-  { id: "todo-0", name: "Eat", completed: true },
-  { id: "todo-1", name: "Sleep", completed: false },
-  { id: "todo-2", name: "Repeat", completed: false }
+  { id: "todo-0", name: "build a rocket with less than 10 bux", completed: true },
+  { id: "todo-1", name: "perform self improvement, i.e: mastubation", completed: false },
+  { id: "todo-2", name: "send more zombies to alex cause she wants sumg", completed: false }
 ]
 
 ReactDOM.render(

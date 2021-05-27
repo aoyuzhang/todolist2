@@ -19,6 +19,9 @@ function App(props) {
     });
     setTasks(updatedTasks);
   }
+  function deleteTask(id){
+    console.log(id)
+  }
 
   function addTask(name){
     const newTask={id: "todo-"+nanoid(), name:name, completed:false};
@@ -31,6 +34,7 @@ function App(props) {
       completed={task.completed}
       key = {task.id}
       toggleTaskCompleted={toggleTaskCompleted}
+      deleteTask = {deleteTask}
     />));
 
 
