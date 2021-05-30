@@ -6,6 +6,7 @@ import {nanoid} from "nanoid";
 
 function App(props) {
   const [tasks, setTasks] = useState(props.tasks);
+  const [filter, setFilter] = useState('All');
 
   const tasksNoun = tasks.length !==1 ? 'tasks':'task';
   const headingText = `${tasks.length} ${tasksNoun} tasks remaining`;
